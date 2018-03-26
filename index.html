@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Single Page Responsive Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#home">One Page Responsive</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Header -->
+<header id="home">
+    <h1>One Page Responsive Layout!</h1>
+    <p>Tagline goes here....</p>
+</header>
+
+<!-- 3 cols -->
+<div id="about" class="row threecol">
+    <div class="col-lg-4 col-md-4 col-xs-12">
+        <img class="thumbnail" src="https://i.imgur.com/jByon09.jpg">
+        <h4>Three Column Left</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Vivamus suscipit tortor eget felis porttitor volutpat. Sed
+        porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-sm btn-block btn-success">Col1</button>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-12">
+        <img class="thumbnail" src="https://i.imgur.com/YLEvpmK.jpg">
+        <h4>Three Column Mid</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+            magna justo, lacinia eget consectetur sed, convallis at tellus.<br> Vivamus suscipit tortor eget felis porttitor volutpat.
+            Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-sm btn-block btn-primary">Col2</button>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-12">
+        <img src="https://i.imgur.com/gxoeVfu.jpg">
+        <h4>Three Column Right</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+            magna justo, lacinia eget consectetur sed, convallis at tellus.<br> Vivamus suscipit tortor eget felis porttitor volutpat.
+            Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <button class="btn btn-sm btn-block btn-danger">Col3</button>
+    </div>
+</div>
+
+
+<!-- 2 cols -->
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-xs-12">
+        <img src="https://i.imgur.com/LgZOTY7.jpg">
+        <h4>Two column left side</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.
+        Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-block btn-primary">Col2</button>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+        <img src="https://i.imgur.com/PXDX3DA.jpg">
+        <h4>Two column right side</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+            magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.
+            Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-block btn-primary">Col3</button>
+    </div>
+</div>
+
+<!-- tag banner -->
+<div class="jumbotron">
+    <div class="container">
+        <h4>Services</h4>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+            magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+        <a  class="btn btn-dark" href="#services">Find Out More!</a>
+    </div>
+    
+</div>
+
+<!-- 4 cols -->
+<div id="services" class="row">
+    <div class="col-lg-3 col-md-3 col-xs-6">
+        <img class="four_col_img" src="https://i.imgur.com/d50x7Iv.jpg">
+        <h4>Column One</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Vivamus suscipit tortor eget felis porttitor volutpat. Sed
+        porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-6">
+        <img class="four_col_img" src="https://i.imgur.com/NOPxIlR.jpg">
+        <h4>Column Two</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Vivamus suscipit tortor eget felis porttitor volutpat. Sed
+        porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-primary">Click me</button>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-6">
+        <img class="four_col_img" src="https://i.imgur.com/oD16BBV.jpg">
+        <h4>Column Three</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Vivamus suscipit tortor eget felis porttitor volutpat. Sed
+        porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-6">
+        <img class="four_col_img" src="https://i.imgur.com/yvPPxs9.jpg">
+        <h4>Column Four</h4>
+        <hr>
+        <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Vivamus
+        magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Vivamus suscipit tortor eget felis porttitor volutpat. Sed
+        porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn btn-primary">Click me</button>
+    </div>
+</div>
+
+<!-- one large col -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <img src="https://i.imgur.com/iji3DE7.jpg">
+        <h4>One Large Column</h4>
+        <hr>
+        <p>
+            Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis
+            lorem ut libero malesuada feugiat. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Vestibulum ac diam sit
+            amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque
+            in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta.
+        </p>
+        <button class="btn">Click Me!</button>
+    </div>
+</div>
+
+<!-- contact form -->
+<section id="contact">
+    <div class="container contact-form">
+        <h1>Contact Form</h1>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <p class="form-control">Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada
+                feugiat. Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat</p>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input class="form-control" type="text" placeholder="Name">
+                <input class="form-control" type="email" placeholder="Email">
+                <input class="form-control" type="text" placeholder="Subject">
+            </div>
+            <div class="form-group col-md-6">
+                <textarea class="form-control">Your message here....</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer -->
+
+<footer>
+    <hr>
+    <p class="copyright">&copy; Your Company Name Here....</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<script src="./scripts/index.js"></script>
+
+</body>
+</html>
