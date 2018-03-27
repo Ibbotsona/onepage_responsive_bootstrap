@@ -31,7 +31,7 @@ div img {
 
 header h1 {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 25%;
 }
 .bg-dark {
     background-color:rgba(14, 15, 17, 0.5);
@@ -39,8 +39,8 @@ header h1 {
 
 .row {
     text-align: center;
-    margin: 10vh 0;
-    padding: 0 5vh;
+    margin: 10% 0;
+    padding: 0 5%;
 }
 
 .jumbotron {
@@ -78,7 +78,7 @@ div > h1 {
 }
 
 .contact-form {
-    padding-top: 20vh;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -103,4 +103,9 @@ textarea {
 
 .col-lg-12 img {
     border-radius: 2%;
+}
+
+.col-centered {
+    margin: 0 auto;
+    float: none;
 }
